@@ -1,0 +1,187 @@
+body {
+    background-color: #f4f7fb;
+    font-family: Arial, sans-serif;
+    margin: 0;
+}
+
+
+/* Navigation */
+
+.navbar {
+    background-color: #0d6efd;
+}
+
+.navbar-brand {
+    font-size: 22px;
+    font-weight: bold;
+}
+
+
+/* Hero Section */
+
+.hero {
+    background: linear-gradient(135deg, #0d6efd, #4dabf7);
+    color: white;
+    text-align: center;
+    padding: 50px 20px;
+}
+
+.hero h1 {
+    font-size: 32px;
+    font-weight: bold;
+}
+
+.hero p {
+    margin-top: 10px;
+    font-size: 17px;
+}
+
+
+/* Cards */
+
+.main-card,
+.result-card {
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0 5px 20px rgba(0, 0, 0, 0.08);
+}
+
+
+/* Section Titles */
+
+.section-title {
+    color: #0d6efd;
+    font-weight: bold;
+    margin-bottom: 25px;
+}
+
+
+/* Form */
+
+.form-label {
+    font-weight: bold;
+}
+
+.form-control,
+.form-select {
+    border-radius: 8px;
+    padding: 10px;
+}
+
+.form-control:focus,
+.form-select:focus {
+    border-color: #0d6efd;
+    box-shadow: 0 0 5px rgba(13, 110, 253, 0.3);
+}
+
+
+/* Buttons */
+
+.btn {
+    border-radius: 8px;
+    padding: 10px 25px;
+    font-weight: bold;
+}
+
+.btn-primary {
+    margin-right: 8px;
+}
+
+
+/* Result */
+
+.result-card {
+    display: none;
+}
+
+.table th {
+    background-color: #e9f2ff;
+}
+
+.table td,
+.table th {
+    padding: 12px;
+}
+
+
+/* Summary */
+
+.summary-box {
+    background-color: #f8f9fa;
+    border-radius: 12px;
+    padding: 20px;
+    border: 1px solid #dee2e6;
+}
+
+.summary-box h6 {
+    color: #555;
+    font-weight: bold;
+}
+
+.summary-box h3 {
+    color: #0d6efd;
+    font-weight: bold;
+}
+
+.summary-box p {
+    margin: 0;
+    color: #777;
+}
+
+
+/* Pass */
+
+.pass {
+    color: green !important;
+}
+
+
+/* Fail */
+
+.fail {
+    color: red !important;
+}
+
+
+/* Footer */
+
+footer {
+    background-color: #212529;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    margin-top: 50px;
+}
+
+footer p {
+    margin: 0 0 5px 0;
+}
+
+
+/* Mobile Responsive */
+
+@media (max-width: 768px) {
+
+    .hero h1 {
+        font-size: 25px;
+    }
+
+    .hero p {
+        font-size: 14px;
+    }
+
+    .main-card,
+    .result-card {
+        padding: 20px !important;
+    }
+
+    .btn {
+        width: 100%;
+        margin-top: 8px;
+    }
+
+    .btn-primary {
+        margin-right: 0;
+    }
+
+}
